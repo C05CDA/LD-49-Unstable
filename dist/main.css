@@ -1,6 +1,6 @@
 @font-face {
     font-family: "early_gameboy";
-    src: url("../assets/early_gameboy.ttf");
+    src: url(d9d11b3df42d741aaf14.ttf);
 }
 /* 
 #0c1e3e
@@ -33,3 +33,4 @@ canvas {
     display: block;
     width: 800px;
 }
+
