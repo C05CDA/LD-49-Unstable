@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "early_gameboy";
+    src: url(d9d11b3df42d741aaf14.ttf);
+}
+/* 
+#0c1e3e
+#122c5a
+#38fbdb
+#fc0ff5
+#8e52f5
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "early_gameboy", Helvetica, sans-serif, Arial;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #8e52f5;
+    text-align: center;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
