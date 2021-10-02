@@ -1,6 +1,8 @@
 import style from "./css/main.css";
 import Phaser from "phaser"
 
+import MainScene from "./scenes/mainScene";
+
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -14,8 +16,8 @@ var config = {
             debug: false
         },
     },
+    scene: [MainScene]
     // scene: [MenuScene, MainScene, HudScene, GameoverScene]
-    // scene: [MainScene, HudScene]
 };
 
 var game = new Phaser.Game(config);
